@@ -219,7 +219,7 @@ fun isUserWithinRegion(
     point2: BeaconValues,
     point3: BeaconValues,
 ): Boolean {
-    val beacon1RSSI = smoothedRSSI["2217ae4d-5a3d-a3b9-8244-23b58c54c100"]
+    val beacon1RSSI = smoothedRSSI["327A00B9-8D7D-9B9C-8B4E-C8A07EEF85E4"]
     val beacon2RSSI = smoothedRSSI["20fef172-070c-ca90-e145-cec0f88f71ac"]
     val beacon3RSSI = smoothedRSSI["4771157d-9ec9-c2b1-4245-2b0b1e17a35f"]
 

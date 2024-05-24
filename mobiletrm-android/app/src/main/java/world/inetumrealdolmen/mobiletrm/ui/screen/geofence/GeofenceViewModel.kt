@@ -30,7 +30,7 @@ import javax.inject.Inject
 class GeofenceViewModel
     @Inject
     constructor(
-        private val repository: QuarkusRepository, // TODO: use repo
+        private val repository: QuarkusRepository,
         @ApplicationContext private val context: Context,
     ) : ViewModel() {
         companion object {
@@ -72,7 +72,7 @@ class GeofenceViewModel
                         listOf(
                             Region("BluePulse1", Identifier.parse("20FEF172-070C-CA90-E145-CEC0F88F71AC"), null, null),
                             Region("BluePulse2", Identifier.parse("4771157D-9EC9-C2B1-4245-2B0B1E17A35F"), null, null),
-                            Region("BluePulse3", Identifier.parse("2217ae4d-5a3d-a3b9-8244-23b58c54c100"), null, null),
+                            Region("BluePulse3", Identifier.parse("327A00B9-8D7D-9B9C-8B4E-C8A07EEF85E4"), null, null),
                         )
                     apiState = ApiState.Success
                 } catch (e: Exception) {
