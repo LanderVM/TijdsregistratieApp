@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">MobileTRM</string>
+
+    <!--Authentication-->
+    <string name="auth_message_mustBeLoggedIn">Please log in to use the app.</string>
+    <string name="auth_button_login">Log in</string>
+    <string name="auth_button_logout">Log out</string>
+
+    <!--Default Indicators-->
+    <string name="loading">Loading…</string>
+    <string name="info">No info was given.</string>
+    <string name="error">%1$s</string>
+    <string name="error_unknown">An unknown error has occurred!</string>
+    <string name="error_socketTimeout">The connection to the server failed!</string>
+    <string name="error_notFound">The requested item could not be found!</string>
+    <string name="error_badRequest">Something went wrong with the client!</string>
+    <string name="error_unspecified">An unspecified error has occurred!</string>
+    <string name="error_internal">Something went wrong with the server!</string>
+
+    <!--Navigation titles-->
+    <string name="nav_title_home">Home</string>
+    <string name="nav_drawerTitle_home">Home</string>
+    <string name="nav_title_projects_overview">%1$s\'s projects</string>
+    <string name="nav_title_unknown_username">Unknown</string>
+    <string name="nav_title_project_details_overview_unknown">Unknown Project</string>
+    <string name="nav_drawerTitle_projects_overview">My Projects</string>
+    <string name="nav_title_add_time_registration">Manual Mode</string>
+    <string name="nav_title_timer">Timer Mode</string>
+    <string name="nav_drawerTitle_add_time_registration">New Registration</string>
+    <string name="nav_title_update_time_registration">Edit Time Entry</string>
+    <string name="nav_title_project_details_overview">Example Project</string>
+    <string name="nav_title_time_registrations_overview">Time Overview</string>
+    <string name="nav_title_time_registration_timer">Time-registration Timer</string>
+    <string name="nav_title_create_geofence">Create Geofence</string>
+    <string name="nav_drawerTitle_create_geofence">Create Geofence</string>
+
+
+    <!--Content descriptions-->
+    <string name="contentDescription_navigateBack">Navigate back</string>
+    <string name="contentDescription_navigateHamburger">Open navigation drawer</string>
+    <string name="contentDescription_navigateProfile">Open profile menu</string>
+    <string name="contentDescription_bottomNavigateHome">Navigate home</string>
+    <string name="contentDescription_bottomNavigateTimeRegistrationOverview">Navigate to time registration overview screen</string>
+    <string name="contentDescription_bottomNavigateAddTimeRegistration">Navigate to create a new time registration screen</string>
+    <string name="contentDescription_errorIcon">Something went wrong</string>
+    <string name="contentDescription_infoIcon">Loading…</string>
+    <string name="contentDescription_favouriteIcon">Add to favourites</string>
+    <string name="contentDescription_deadlineIcon">Project deadline</string>
+    <string name="contentDescription_toggle_project_info">Toggle Project Info</string>
+    <string name="contentDescription_toggle_tags">Toggle Tags</string>
+    <string name="contentDescription_showKeyboardMode">Show keyboard mode</string>
+    <string name="contentDescription_showGraphicalMode">Show graphical user interface mode</string>
+    <string name="contentDescription_moreVertIcon">More options</string>
+    <string name="contentDescription_editIcon">Edit Icon</string>
+    <string name="contentDescription_deleteIcon">Delete Icon</string>
+    <string name="contentDescription_previousIcon">Previous Icon</string>
+    <string name="contentDescription_nextIcon">Next Icon</string>
+    <string name="contentDescription_pauseIcon">Pause timer</string>
+    <string name="contentDescription_stopIcon">Discard timer</string>
+    <string name="contentDescription_submitIcon">Submit as new time registrations</string>
+    <string name="contentDescription_startIcon">Start timer</string>
+    <string name="contentDescription_logOutButton">Log out of application</string>
+    <string name="contentDescription_deleteRegistration">Delete time registration</string>
+
+    <!--Project Overview-->
+    <string name="infoIndicator_noProjects">You\'re not assigned to any projects.</string>
+    <string name="project_favorited">Project favorited!</string>
+    <string name="project_unfavorited">Project unfavorited!</string>
+
+
+    <!--Project Details-->
+    <string name="projectDetails_client">Client</string>
+    <string name="projectDetails_company">Company</string>
+    <string name="projectDetails_startDate">Start Date</string>
+    <string name="projectDetails_deadline">Deadline</string>
+    <string name="projectDetails_timeRemaining">Time Remaining</string>
+    <string name="projectDetails_description">Description</string>
+    <string name="projectDetails_show_tags">TAGS</string>
+    <string name="projectDetails_time_registrations">Time registrations</string>
+    <string name="projectDetails_hide_project_information">Hide project information</string>
+    <string name="projectDetails_show_project_information">Show project information</string>
+    <string name="projectDetails_notFound">The requested project could not be found.</string>
+    <string name="projectDetails_edit">Edit</string>
+    <string name="projectDetails_delete">Delete</string>
+    <string name="projectDetails_noCachedDetails">No offline data available.</string>
+
+    <!--Add Time Registration-->
+    <string name="timeRegistrations_description_placeHolder">No description set.</string>
+    <string name="timeRegistrations_subTitle_startHour">Start hour</string>
+    <string name="timeRegistrations_subTitle_endHour">End hour</string>
+    <string name="timePickerDialog_title">Select hour</string>
+    <string name="timePickerDialog_confirm">Confirm</string>
+    <string name="timePickerDialog_cancel">Cancel</string>
+    <string name="datePickerDialog_title">Select date</string>
+    <string name="datePickerDialog_confirm">Confirm</string>
+    <string name="datePickerDialog_cancel">Cancel</string>
+    <string name="timeRegistrations_tags">Tags</string>
+    <string name="timeRegistrations_task">Task</string>
+    <string name="timeRegistrations_task_none">None</string>
+    <string name="timeRegistrations_project">Project</string>
+    <string name="timeRegistrations_task_placeHolder">Select task from list</string>
+    <string name="timeRegistrations_project_placeHolder">Select project from list</string>
+    <string name="timeRegistrations_tags_addIcon">+</string>
+    <string name="timeRegistrations_tags_PlaceHolder">Enter a tag</string>
+    <string name="timeRegistrations_description">Description</string>
+    <string name="timeRegistrations_addRegistrationButton">Add new time registration</string>
+    <string name="timeRegistrations_saveButton">Save</string>
+    <string name="timeRegistrations_updateButton">Update</string>
+    <string name="timeRegistrations_confirmationDialog_homeButton">Home</string>
+    <string name="timeRegistrations_confirmationDialog_title">Success</string>
+    <string name="timeRegistrations_confirmationDialog_addBody">Your time registration has been submitted successfully.</string>
+    <string name="timeRegistrations_confirmationDialog_updateBody">Your time registration has been updated successfully.</string>
+    <string name="timeRegistration_notFound">No time registrations logged for this period.</string>
+    <string name="timeRegistration_switch_timer">Timer</string>
+    <string name="timeRegistration_switch_manual">Manual</string>
+    <string name="timeRegistration_timer_discarded">Timer has been discarded.</string>
+    <string name="timeRegistration_successCreated">Time registration has been created successfully.</string>
+    <string name="timeRegistration_successUpdated">Time registration has been updated successfully.</string>
+    <string name="timeRegistration_successDeleted">Time registration has been deleted successfully.</string>
+    <string name="timeRegistration_status_syncFailed">Sync failed</string>
+    <string name="timeRegistration_status_dismiss">Dismiss</string>
+
+    <string name="timeRegistration_timerTitle">Project Timer</string>
+
+    <!--Validations-->
+    <string name="validations_none" />
+    <string name="validations_notEmpty">May not be empty!</string>
+    <string name="validations_noTimeEntries">Must have at least one time entry!</string>
+    <string name="validations_startTimeAfterEndTime">Start time may not be after end time!</string>
+    <string name="validations_startTimeIsEndTime">Start time may not be the same as end time!</string>
+    <string name="validations_overlappingTimeEntries">Time entries may not overlap!</string>
+    <string name="validations_overlappingTimeEntriesInDb">Time entry would overlap with an existing one for the selected date!</string>
+    <string name="contentDescription_timeRegistrationStatus_syncIcon">Pending synchronization</string>
+    <string name="contentDescription_timeRegistrationStatus_warningIcon">Synchronization failed</string>
+    <string name="project_finished">Project finished</string>
+
+</resources>

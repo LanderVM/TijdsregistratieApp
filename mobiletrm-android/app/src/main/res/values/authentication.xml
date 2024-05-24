@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Auth0 specific-->
+    <string name="auth0_domain">mobile-trm-geo.eu.auth0.com</string>
+    <string name="auth0_scheme">demo</string>
+    <string name="auth0_client_id">Xc0BLQ6uxtBFJ4ixbzRZVHbjUvyiQowG</string>
+</resources>

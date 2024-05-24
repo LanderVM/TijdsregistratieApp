@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Default-->
+    <string name="notifications_default_title">MobileTRM</string>
+    <string name="notifications_popup_confirmation">Continue</string>
+
+    <!--Timer-->
+    <string name="notifications_timer_displayName">Timers</string>
+    <string name="notifications_timer_description">Notifications for the timer functionality.</string>
+    <string name="notifications_timer_running_title">Active timer</string>
+    <string name="notifications_timer_running_text">Time registration is being tracked in the background.</string>
+    <string name="notifications_timer_paused_title">Paused timer</string>
+    <string name="notifications_timer_paused_text">Time registration timer has been paused.</string>
+    <string name="notifications_timer_acceptTitle">Allow timer notifications?</string>
+    <string name="notifications_timer_acceptBody">"If you'd like to receive notifications regarding the timer, please accept the next popup."</string>
+
+    <!--Sync-->
+    <string name="notifications_timeEntrySync_displayName">Syncing status</string>
+    <string name="notifications_timeEntrySync_description">Notifications for the synchronisation status functionality.</string>
+    <string name="notifications_timeEntrySync_finished">Time entries have been synced to the cloud.</string>
+    <string name="notifications_timeEntrySync_failed">There were some problems syncing your time entries. Please head to your time entries for more info.</string>
+
+    <!--Sync-->
+    <string name="notifications_beacons_displayName">Workspace Detection</string>
+    <string name="notifications_beacons_description">Notifications for the workspace detection functionality using Bluetooth Beacons.</string>
+    <string name="notifications_beacons_scanning">Scanning for nearby workspaces…</string>
+</resources>
